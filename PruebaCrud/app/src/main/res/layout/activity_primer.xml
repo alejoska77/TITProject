@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/psicologiafondo"
+
+    tools:context=".PrimerActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/txtEspera3"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.05"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.25" />
+
+        <TextView
+            android:id="@+id/txtPrimero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="157dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/preg1" />
+
+        <RadioGroup
+            android:id="@+id/rbgpreguntas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="382dp"
+                android:layout_height="158dp"
+                android:layout_weight="1"
+                android:background="@drawable/r10p1" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="376dp"
+                android:layout_height="203dp"
+                android:layout_weight="1"
+                android:background="@drawable/r20p1" />
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="374dp"
+                android:layout_height="187dp"
+                android:layout_weight="1"
+                android:background="@drawable/r3p1" />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/imgCorrecto2"
+            android:layout_width="match_parent"
+            android:layout_height="233dp"
+            android:layout_weight="1"
+            android:src="@drawable/correcto"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.572"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

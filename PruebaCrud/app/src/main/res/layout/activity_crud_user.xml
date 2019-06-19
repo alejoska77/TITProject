@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgAtras"
+            android:layout_width="67dp"
+            android:layout_height="73dp"
+            android:src="@drawable/down" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Usuarios"
+            android:textSize="24sp"
+             />
+
+        <EditText
+            android:id="@+id/txtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:drawableLeft="@drawable/ic_people_black_24dp"
+            android:hint="   Ingresar su nombre"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/txtApellido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:drawableLeft="@drawable/ic_people_black_24dp"
+            android:hint="   Ingresar su nombre"
+            android:inputType="textEmailAddress" />
+
+
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:hint="   Ingresar su correo"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/txtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
+            android:hint="   Ingresar su contraseña"
+            android:inputType="textPassword" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="Seleccione un rol:"
+            android:textColor="#131946"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spnRol"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_margin="1dp"
+            android:layout_height="wrap_content" />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Lista de Usuarios"
+            android:textSize="24sp" />
+
+        <ListView
+            android:id="@+id/lstUser"
+            android:layout_width="match_parent"
+            android:layout_height="154dp"
+            android:textSize="8px"></ListView>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</ScrollView>

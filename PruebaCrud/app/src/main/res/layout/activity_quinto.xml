@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/psicologiafondo"
+    tools:context=".QuintoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/txtQuinto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/preg5" />
+
+        <RadioGroup
+            android:id="@+id/rbgpreguntas5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioButton52"
+                android:layout_width="363dp"
+                android:layout_height="165dp"
+                android:layout_weight="1"
+                android:background="@drawable/resp1p5"
+                android:baselineAligned="false" />
+
+            <RadioButton
+                android:id="@+id/radioButton53"
+                android:layout_width="363dp"
+                android:layout_height="195dp"
+                android:layout_weight="1"
+                android:background="@drawable/resp2p5" />
+
+            <RadioButton
+                android:id="@+id/radioButton54"
+                android:layout_width="363dp"
+                android:layout_height="184dp"
+                android:layout_weight="1"
+                android:background="@drawable/resp3p5" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

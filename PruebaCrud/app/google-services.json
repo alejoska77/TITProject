@@ -1,0 +1,52 @@
+{
+  "project_info": {
+    "project_number": "534435056111",
+    "firebase_url": "https://prueba-9003c.firebaseio.com",
+    "project_id": "prueba-9003c",
+    "storage_bucket": "prueba-9003c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534435056111:android:bb1be77d2aa8db86",
+        "android_client_info": {
+          "package_name": "com.example.irea.pruebacrud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534435056111-fasndtr05peols8v073us3vt7lkc74pl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.irea.pruebacrud",
+            "certificate_hash": "2b7fb22913b3870648e907de3e6ee68595f24a4c"
+          }
+        },
+        {
+          "client_id": "534435056111-epegjgffhrr679ufqltqpitdq21tm4a4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.irea.pruebacrud",
+            "certificate_hash": "c6c443626788e4d94ffe119825df3a291f886832"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiOHJisH2gsQ_uObw1OfXvcGwuO-lQ-NY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "534435056111-5211df10nnp0k92b1pgjgvie63odtib1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ProyectoTIT</string>
+
+    <string name="usuarios">usuarios</string>
+    <string name="rol">rol</string>
+    <string name="title_activity_emociones">activity_emociones</string>
+    <string name="title_activity_emociones1">activity_emociones1</string>
+</resources>

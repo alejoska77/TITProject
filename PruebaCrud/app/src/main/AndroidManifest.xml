@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.irea.pruebacrud">
+
+    <application
+        android:name=".MyFirebaseApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity_final"></activity>
+        <activity android:name=".activity_menu_resultados" />
+        <activity android:name=".activity_lista_detallada_emociones" />
+        <activity android:name=".activity_emocion7" />
+        <activity android:name=".activity_emociones6" />
+        <activity android:name=".activity_emociones4" />
+        <activity android:name=".activity_emociones3" />
+        <activity android:name=".activity_emociones5" />
+        <activity android:name=".LoginActivity1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity_vista_areas" />
+        <activity android:name=".activity_main_use" />
+        <activity android:name=".ActivityMainAdmin" />
+        <activity android:name=".activity_lista_general" />
+        <activity android:name=".Activity_Tratamiento" />
+        <activity android:name=".VistaRoles" />
+        <activity android:name=".regis" />
+        <activity android:name=".RecuperarContrasenaActivity" />
+        <activity android:name=".activity_emociones2" />
+        <activity android:name=".activity_emociones1" />
+        <activity android:name=".Usuarios" />
+        <activity android:name=".SegundoActivity" />
+        <activity android:name=".PrimerActivity" />
+        <activity android:name=".TercerActivitie" />
+        <activity android:name=".CuartoActivity" />
+        <activity android:name=".QuintoActivity" />
+        <activity android:name=".SextoActivity" />
+    </application>
+
+</manifest>
